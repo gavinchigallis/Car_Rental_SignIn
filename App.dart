@@ -7,22 +7,22 @@ import 'dart:math' as math;
 //import '../models/utility.dart';
 
 
-class CarRentalSignInApp extends StatefulWidget {
+class App extends StatefulWidget {
   /*[Attributes]*/
 
   /*[Constructors]*/
-  CarRentalSignInApp()
+  App()
   {
 
   }
 
   @override
   State<StatefulWidget> createState() {
-    return _CarRentalSignInApp();
+    return _App();
   }
 }
 
-class _CarRentalSignInApp extends State<CarRentalSignInApp>{
+class _App extends State<App>{
     /*[Attributes]*/
     int _state_id = 2;
     int mainDisplayState = 2;
